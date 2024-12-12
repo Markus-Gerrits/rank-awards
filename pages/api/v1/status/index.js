@@ -18,6 +18,10 @@ async function status(request, response) {
         max_connections: parseInt(maxConnections.rows[0].max_connections),
         used_connections: usedConnections.rows[0].count,
       },
+      enigma_do_medo: {
+        steam: "Enigma do Medo ta custando só R$65,00 na steam!",
+        nuuvem: "Enigma do Medo ta custando só R$55,00 na Nuuvem!",
+      },
     },
   });
 }
